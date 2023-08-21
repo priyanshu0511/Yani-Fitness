@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Background.jpg");
+    background-size: cover;
+    font-family: 'Karla', sans-serif;
+}
+
+.left{
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    left: 30px;
+}
+
+.right{
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    right: 30px;
+}
+
+.mid{
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+}
+
+.nav{
+    display: inline-block;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    transition: 0.6s ease;
+}
+
+.nav li a:hover{
+    color: black;
+    background-color: white;
+    text-decoration: solid;
+    
+}
+
+.left img{
+    width: 75px;
+    height: auto;
+}
+
+.btn{
+    font-family: 'Karla', sans-serif;
+    margin: 0px 9px;
+    padding: 4px 14px;
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: rgb(94, 93, 93);
+    color: rgb(219, 213, 213);
+}
+
+.container{
+    margin: 106px 80px;
+    padding: 75px;
+    width: 70%;
+}
+
+.form-grp{
+    margin-top: 30px;
+    width: 20%;
+}
+
+.form-grp input{
+    display: block;
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 3px auto;
+    font-size: 25px;
+    border-radius: 2px;
+}
+
+.h1{
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.form-grp .btn{
+    display: block;
+    margin: 15px auto;
+    width: 225%;
+    padding: 10px 0px;
+}
